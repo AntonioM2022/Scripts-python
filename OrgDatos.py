@@ -9,7 +9,7 @@ with open('Nombres_variables.txt', 'r') as archivo:
                                 i += 1
                                 
                         var = var+ 1       
-                        print('%s   %s  %s' %(var,linea,palabra[:i]))
+                        print('%s   %s  %s' %(var,palabra[:i],linea))
        
 
        
